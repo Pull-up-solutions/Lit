@@ -1,0 +1,110 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+
+}
+header
+{
+	background-image:url("cover.png");
+	background-position:center;
+	background-size:cover;
+	height:100vh;
+}
+.main-nav
+{
+	float: right;
+	text-decoration: none;
+	list-style: none;
+	margin-top: 30px;
+
+}
+.main-nav li
+{
+	display:inline-flex;
+	
+}
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family:monospace;
+	letter-spacing: 5px;
+	font-size: 15px;
+	margin: 5px;
+}
+.active a
+{
+	border:1px solid white;
+}
+.main-nav li a:hover
+{
+	border: 1px solid white;
+}
+.logo
+{
+	float: left;
+	padding-left:20px;
+    margin-top: 30px;
+	color: white;
+	font-family:monospace;
+	font-size: 20px;
+	letter-spacing: 5px;
+	font-weight: 700;
+	
+}
+
+.row
+{
+    width: 100%;
+}
+
+.hero
+{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+    top:50%;
+
+}
+h1
+{
+	color: white;
+	text-transform: uppercase;
+	font-size: 70px;
+	text-align: center;
+	letter-spacing:10px;
+}
+.button
+{
+	line-height: 100px;
+
+}
+.btn
+{
+border:1px solid white;
+padding:10px 30px;
+color: white;
+text-decoration: none;
+margin-right: 5px;
+font-size: 13px;
+text-transform: uppercase;
+
+}
+.btn-one
+{
+	background-color: darkorange;
+	font-family: sans-serif;
+	margin-right:25px;
+}
+.btn-two
+{
+	font-family: sans-serif;
+}
+.btn-two:hover
+{
+background-color: white;
+	color:black;
+transition: all 0.5s ease-in;
+}
